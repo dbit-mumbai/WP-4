@@ -9,7 +9,7 @@ The helpline page :
 It has a main page called index.html 
 In this page there are three districts to select from, mumbai (mumbai.html), navi mumbai (navimumbai.html), thane (hane.html).
 On selecting one the user is directed to that particular page.
-Each page gives name, contact and adress of the police, ambulance and fire brigade respectively.
+Each page gives name, contact and address of the police, ambulance and fire brigade respectively.
 There are also links added which opens the actual website of the police or ambulance or fire brigade within this web page.
 
 The form with javascript validation:
