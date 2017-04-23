@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title></title>
+
+<meta name="keywords" content="Registration form" />
+<meta name="description" content="Registration form. " />
+
+<link rel='stylesheet' href='formcss.css' type='text/css' />
+
+<script src="form.js"></script>
+
+
+</head>
+
+
+<body onload="document.registration.userid.focus();">
+
+
+<center>
+<table>
+<tr>                        
+<th> <img src="DBIT_logo.png" width="100px" height="100px">  </th> 
+<th><center> <h2> Don Bosco Institute of Technology </h2></center> 
+    <center> <h2> Department of Information Technology </h2></center> </th>
+</tr>
+</table>
+</center>
+
+
+<hr>
+
+
+
+<fieldset>
+<legend>Registration Form</legend>
+<form name='registration' onSubmit="return formValidation();">
+<center>
+<table>
+<tr>
+<td>User id</td> <td>: </td>
+<td> <input type="text" name="userid" size="12" /> </td>
+</tr>
+
+<tr>
+<td> Password </td> <td> :</td>
+<td><input type="password" name="passid" size="12" /> </td>
+</tr>
+
+<tr>
+<td>Name </td> <td>:</td> 
+<td> <input type="text" name="username" size="50" /> </td>
+</tr>
+
+<tr>
+<td> Address </td> <td>:</td>
+<td> <input type="text" name="address" size="50" /> </td>
+</tr>
+
+<tr>
+<td>Country</td> <td>:</td>
+<td> <select name="country">
+<option selected="" value="Default">(Please select a country)</option>
+<option value="AF">Australia</option>
+<option value="AL">Canada</option>
+<option value="DZ">India</option>
+<option value="AS">Russia</option>
+<option value="AD">USA</option>
+</select></td>
+</tr>
+
+<tr>
+<td>ZIP Code</td> <td>:</td>
+<td><input type="text" name="zip" /></td>
+</tr>
+
+<tr>
+<td>Email</td> <td>:</td>
+<td><input type="text" name="email" size="50" /> </td>
+</tr>
+
+<tr>
+<td>Gender</td> <td>:</td>
+<td><input type="radio" name="msex" value="Male" /><span>Male</span></td>
+<td><input type="radio" name="fsex" value="Female" /><span>Female</span></td>
+</tr>
+
+<tr>
+<td>Language</td> <td>:</td> 
+<td><input type="checkbox" name="en" value="en" checked /><span>English</span></td>
+<td><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></td>
+</tr>
+
+<tr>
+<td>About</td> <td>:</td>
+<td><textarea name="desc" id="desc"></textarea></td>
+</tr>
+
+<tr>
+<td colspan="3"><input type="submit" name="submit" value="Submit" /></td>
+</tr>
+
+</table>
+
+</center>
+
+</form>
+
+</fieldset>
+
+
+</body>
+</html>
